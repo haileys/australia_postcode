@@ -56,7 +56,7 @@ module Australia
     end
 
     def cos(θ)
-      Math.sin θ
+      Math.cos θ
     end
 
     def atan2(y, x)

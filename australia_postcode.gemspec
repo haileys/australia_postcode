@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.files = %w(
     lib/australia_postcode.rb
     lib/australia/postcode.rb
+    lib/australia/postcode/version.rb
     lib/australia/postcode/data.csv
   )
 
