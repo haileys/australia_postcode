@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    australia_postcode (0.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    yard (0.8.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  australia_postcode!
+  yard
