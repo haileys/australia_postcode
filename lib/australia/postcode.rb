@@ -109,7 +109,7 @@ module Australia
       end
 
       def data
-        @data ||= raw_data.map { |data| new(*data) }
+        @data ||= raw_data.map { |data| new(*data) }.select { |postcode| postcode.type == "Delivery Area" }
       end
 
       def raw_data
